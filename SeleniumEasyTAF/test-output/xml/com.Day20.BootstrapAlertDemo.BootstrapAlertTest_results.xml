@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.178">
+  <properties />
+  
+  
+            <testcase name="TC_ID_01_verifyBootstrapAlertHomePage" time="3.160" classname="com.Day20.BootstrapAlertDemo.BootstrapAlertTest" />
+                <testcase name="TC_ID_02_verifyAutocloseableableSuccessMessage" time="0.251" classname="com.Day20.BootstrapAlertDemo.BootstrapAlertTest" />
+                <testcase name="TC_ID_04_verifyAutocloseableWarningMessage" time="0.208" classname="com.Day20.BootstrapAlertDemo.BootstrapAlertTest" />
+                <testcase name="TC_ID_03_verifyNormalSuccessMessage" time="0.362" classname="com.Day20.BootstrapAlertDemo.BootstrapAlertTest" />
+                <testcase name="TC_ID_05_verifyNormalWarningMessage" time="0.197" classname="com.Day20.BootstrapAlertDemo.BootstrapAlertTest" />
+      
+</testsuite>

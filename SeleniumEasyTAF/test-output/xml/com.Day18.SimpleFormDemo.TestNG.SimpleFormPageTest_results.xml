@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.670">
+  <properties />
+  
+  
+            <testcase name="singleInputFieldForm" time="0.399" classname="com.Day18.SimpleFormDemo.TestNG.SimpleFormPageTest" />
+                <testcase name="verifySimpleFormDemoHomePage" time="1.838" classname="com.Day18.SimpleFormDemo.TestNG.SimpleFormPageTest" />
+                <testcase name="twoInputFieldForm" time="0.433" classname="com.Day18.SimpleFormDemo.TestNG.SimpleFormPageTest" />
+      
+</testsuite>

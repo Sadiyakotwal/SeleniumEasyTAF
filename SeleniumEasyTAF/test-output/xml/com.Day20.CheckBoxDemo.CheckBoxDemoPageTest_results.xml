@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.327">
+  <properties />
+  
+  
+            <testcase name="TC_ID_01_verifyCheckBoxDemoHomePage" time="1.688" classname="com.Day20.CheckBoxDemo.CheckBoxDemoPageTest" />
+                <testcase name="TC_ID_02_verifySingleCheckBoxDemoSection" time="0.298" classname="com.Day20.CheckBoxDemo.CheckBoxDemoPageTest" />
+                <testcase name="TC_ID_03_verifymultipleCheckBoxDemoSection" time="0.341" classname="com.Day20.CheckBoxDemo.CheckBoxDemoPageTest" />
+      
+</testsuite>
