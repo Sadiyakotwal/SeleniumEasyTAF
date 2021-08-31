@@ -5,7 +5,7 @@
           <listener class-name="org.uncommons.reportng.HTMLReporter"/>
          <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 </listeners>
-  <test thread-count="5" name="Test">
+  <test name="Test Simple Form Demo Page">
     <classes>
       <class name="com.Day18.SimpleFormDemo.TestNG.SimpleFormPageTest"/>
     </classes>

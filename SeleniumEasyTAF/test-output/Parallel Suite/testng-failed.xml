@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Parallel Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browsername" value="ie"/>
+  <test name="FireFox Test">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="com.Day22.ParellelExecution.OrangeHrmLoginTest"/>
+    </classes>
+  </test> <!-- FireFox Test -->
+  <test name=" Chrome Browser Test">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.Day22.ParellelExecution.OrangeHrmLoginTest"/>
+    </classes>
+  </test> <!--  Chrome Browser Test -->
+  <test name="Internet Explorer Browser Test">
+    <parameter name="browsername" value="ie"/>
+    <classes>
+      <class name="com.Day22.ParellelExecution.OrangeHrmLoginTest"/>
+    </classes>
+  </test> <!-- Internet Explorer Browser Test -->
+  <test parallel="tests" name="FireFox Test(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="com.Day22.ParellelExecution.OrangeHrmLoginTest">
+        <methods>
+          <include name="doLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Day22.ParellelExecution.OrangeHrmLoginTest -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+  <test parallel="tests" name="Internet Explorer Browser Test(failed)">
+    <parameter name="browsername" value="ie"/>
+    <classes>
+      <class name="com.Day22.ParellelExecution.OrangeHrmLoginTest">
+        <methods>
+          <include name="doLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Day22.ParellelExecution.OrangeHrmLoginTest -->
+    </classes>
+  </test> <!-- Internet Explorer Browser Test(failed) -->
+</suite> <!-- Failed suite [Parallel Suite] -->

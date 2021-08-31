@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>  
+<run>  
+<include name="RegressionTest"/> 
+<include name="SmokeTest"/>  
+ 
+</run>  
+</groups>  
+  
+  <test name="Testing Shopping Websites">
+    <classes>
+      <class name="com.Day21.Groups.EbayPageTest"/>
+      <class name="com.Day21.Groups.AmazonPageTest"/>
+      <class name="com.Day21.Groups.FlipcartPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

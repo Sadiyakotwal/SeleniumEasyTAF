@@ -3,16 +3,16 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="Dataprovider1.DemoToursPage"/>
+      <class name="com.Day22.Skip.SkipTest"/>
     </classes>
   </test> <!-- Default test -->
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="Dataprovider1.DemoToursPage">
+      <class name="com.Day22.Skip.SkipTest">
         <methods>
-          <include name="doLogin" invocation-numbers="0 1"/>
+          <include name="Test1"/>
         </methods>
-      </class> <!-- Dataprovider1.DemoToursPage -->
+      </class> <!-- com.Day22.Skip.SkipTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
