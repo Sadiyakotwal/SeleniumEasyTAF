@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseTest 
 {
+	
 	    //Global variable
 		public WebDriver driver = null;
 		public Properties objConfigFile;
